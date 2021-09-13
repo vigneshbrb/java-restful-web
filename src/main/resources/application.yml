@@ -1,2 +1,5 @@
 logging:
   level: debug
+server:
+  servlet:
+    context-path: /rest-app
