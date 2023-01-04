@@ -1,10 +1,12 @@
 package com.vb.javarestfulweb.model;
 
-public final class Employee {
-    private final Address address;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
 
-    public Employee(Address address) {
-        this.address = address;
-    }
+@Data
+@EqualsAndHashCode
+public final class Employee {
+   private String name;
+   private Integer salary;
 
 }
