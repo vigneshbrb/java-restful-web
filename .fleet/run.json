@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "type": "maven",
+            "name": "Run Build",
+            "tasks": [
+                "install"
+            ],
+        },
+        {
+            "type": "maven",
+            "name": "Application Run",
+            "tasks": [
+                "spring-boot:run"
+            ],
+        }
+
+    ]
+}
